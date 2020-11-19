@@ -10,6 +10,10 @@ body {
     font-weight: 400;
 }
 
+body.hidden-scroll {
+    overflow: hidden;
+}
+
 // .container-custom {
 //     max-width: 1200px;
 //     padding-left: 15px;

@@ -59,6 +59,10 @@ body {
   font-weight: 400;
 }
 
+body.hidden-scroll {
+  overflow: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -510,13 +514,6 @@ template {
   margin-right: 0;
 }
 
-.collapse.show {
-  position: absolute;
-  top: 50px;
-  left: 0;
-  z-index: 100;
-}
-
 .wr-home-container {
   position: absolute;
   top: 50%;
@@ -965,6 +962,10 @@ footer a:hover {
 
 @media all and (max-width: 700px) {
   .wr-about-us {
+    background-image: none;
+  }
+
+  .wr-about-us:before {
     background-image: none;
   }
 
