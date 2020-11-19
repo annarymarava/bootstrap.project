@@ -1,0 +1,64 @@
+.wr-contact-us {
+    padding-top: 190px;
+    padding-bottom: 130px;
+
+    .section-header {
+        margin: 0;
+    }
+
+    .contact-card-container {
+        padding-top: 20px;
+        padding-bottom: 105px;
+
+    }
+    
+    input {
+        height: 50px;
+        border-radius: 0;
+    }
+
+    textarea {
+        border-radius: 0;
+        resize: none;
+    }
+
+    input[type="text"]::placeholder {
+        font-family: "HelveticaLt";
+        text-align: center;
+    }
+
+    textarea::placeholder {
+        font-family: "HelveticaLt";
+        text-align: center;
+    }
+
+    button {
+        font-family: "HelveticaMd";
+        color: #fff;
+        font-size: 18px;
+        background-color: #161616;
+        width: 100%;
+        height: 50px;
+        margin-top: 25px;
+    }
+}
+
+.form-group {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    svg {
+        color: #000;
+        height: 50px;
+    }
+
+    p {
+        font-family: "HelveticaLt", sans-serif;
+        font-size: 14px;
+    }
+}
